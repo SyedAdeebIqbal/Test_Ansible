@@ -1,0 +1,9 @@
+---
+
+- name: Installing a package
+  hosts: localhost
+  tasks:
+
+  - name: Installing Apache2
+    apt:
+      name: apache2
